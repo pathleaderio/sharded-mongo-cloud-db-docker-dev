@@ -95,7 +95,7 @@ services:
     deploy:
       resources:
         limits:
-          memory: 128M
+          memory: 512M
           cpus: '0.3'
 
   mongos-router1:
@@ -113,7 +113,7 @@ services:
     deploy:
       resources:
         limits:
-          memory: 128M
+          memory: 512M
           cpus: '0.3'
 
 networks:
